@@ -297,4 +297,4 @@ animations = [{
 [node name="Node2D" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_bjx43")
 animation = &"spin"
-frame_progress = 0.698479
+frame_progress = 0.923897
