@@ -38,7 +38,7 @@ func apply_movement(accel):
 	
 func animations():
 	if velocity.length() == 0:
-		sprite.stop()
+		sprite.play("idle")
 	else:
 		if Input.is_action_just_pressed("move_down"):
 			sprite.play("run")
