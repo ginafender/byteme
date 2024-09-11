@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b24iuilgjbauk"
-path="res://.godot/imported/LollipopLabyrinth_basics_PetricakeGames.png-c8812b310f66bc4aeef5947c2e688a15.ctex"
+uid="uid://dtflgd413rdsd"
+path="res://.godot/imported/LollipopLabyrinth_FullPNG_PetricakeGames.png-e51a26adfce49f3f4fae338e32f7362b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/LollipopLabyrinth_basics_PetricakeGames.png"
-dest_files=["res://.godot/imported/LollipopLabyrinth_basics_PetricakeGames.png-c8812b310f66bc4aeef5947c2e688a15.ctex"]
+source_file="res://assets/LollipopLabyrinth_FullPNG_PetricakeGames.png"
+dest_files=["res://.godot/imported/LollipopLabyrinth_FullPNG_PetricakeGames.png-e51a26adfce49f3f4fae338e32f7362b.ctex"]
 
 [params]
 
