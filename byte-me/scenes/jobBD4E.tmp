@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://j3oks2xgkf20"]
+
+[ext_resource type="Texture2D" uid="uid://c8r2yyp6cgxls" path="res://assets/stand.png" id="1_c0l7i"]
+[ext_resource type="Script" path="res://scripts/job_stand.gd" id="1_mwext"]
+[ext_resource type="PackedScene" uid="uid://8ca8ag7ln4c3" path="res://interaction/interaction area/interaction_area.tscn" id="2_afxqt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xfeey"]
+size = Vector2(14, 11)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mmsuy"]
+size = Vector2(47.5, 38)
+
+[node name="JobStand" type="CharacterBody2D"]
+collision_layer = 2
+script = ExtResource("1_mwext")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -11)
+texture = ExtResource("1_c0l7i")
+
+[node name="World Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -5.5)
+shape = SubResource("RectangleShape2D_xfeey")
+
+[node name="InteractionArea" parent="." instance=ExtResource("2_afxqt")]
+action_name = "get jobs"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+position = Vector2(0, -10)
+shape = SubResource("RectangleShape2D_mmsuy")

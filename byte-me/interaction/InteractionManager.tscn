@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cp16cfhbumqg3"]
+
+[ext_resource type="Script" path="res://interaction/interaction_manager.gd" id="1_ih6gs"]
+[ext_resource type="FontFile" uid="uid://dh1cj4oewv56g" path="res://assets/fonts/VCR_OSD_MONO_1.001.ttf" id="2_ed1r6"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_htta4"]
+
+[node name="InteractionManager" type="Node2D"]
+script = ExtResource("1_ih6gs")
+
+[node name="Label" type="Label" parent="."]
+z_index = 20
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 1.0
+offset_right = 142.0
+offset_bottom = 15.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_ed1r6")
+theme_override_font_sizes/font_size = 0
+text = "[E] TO INTERACT"
+label_settings = SubResource("LabelSettings_htta4")
+horizontal_alignment = 1
+vertical_alignment = 1
