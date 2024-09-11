@@ -1,7 +1,7 @@
 [gd_scene load_steps=48 format=3 uid="uid://bpya20i2xwtca"]
 
 [ext_resource type="Script" path="res://scenes/player.gd" id="1_783jg"]
-[ext_resource type="Texture2D" uid="uid://bpisnqxa21aq5" path="res://assets/CosmicLilac_AnimatedSpriteSheet.png" id="1_e6sq0"]
+[ext_resource type="Texture2D" uid="uid://bpisnqxa21aq5" path="res://assets/sprites/CosmicLilac_AnimatedSpriteSheet.png" id="1_e6sq0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3cut6"]
 atlas = ExtResource("1_e6sq0")
