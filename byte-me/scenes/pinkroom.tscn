@@ -1,16 +1,16 @@
 [gd_scene load_steps=32 format=4 uid="uid://ck848wl6u0qm1"]
 
-[ext_resource type="Texture2D" uid="uid://24hbgdknd2p0" path="res://assets/CosmicLilac_Tiles.png" id="1_nap0q"]
-[ext_resource type="PackedScene" uid="uid://bpya20i2xwtca" path="res://scenes/player.tscn" id="2_5avh1"]
-[ext_resource type="Texture2D" uid="uid://c6urxiecoxf2d" path="res://assets/CosmicLegacy_PetricakeGamesPNG.png" id="3_hrat3"]
-[ext_resource type="Texture2D" uid="uid://cjbjqp5cmrd01" path="res://assets/MysticChroma_PetricakeGames.png" id="4_5g1r2"]
-[ext_resource type="Texture2D" uid="uid://1dqh46fit2v7" path="res://assets/TangerineTavernPNG_PetricakeGames.png" id="5_c8rdw"]
-[ext_resource type="Texture2D" uid="uid://dtflgd413rdsd" path="res://assets/LollipopLabyrinth_FullPNG_PetricakeGames.png" id="5_his02"]
-[ext_resource type="PackedScene" uid="uid://bmqnakfiotdqf" path="res://scenes/npc.tscn" id="7_tmyck"]
-[ext_resource type="PackedScene" uid="uid://j3oks2xgkf20" path="res://scenes/job_stand.tscn" id="8_7kl26"]
+[ext_resource type="Texture2D" uid="uid://24hbgdknd2p0" path="res://assets/tilesets/CosmicLilac_Tiles.png" id="1_3due4"]
+[ext_resource type="Texture2D" uid="uid://c6urxiecoxf2d" path="res://assets/tilesets/CosmicLegacy_PetricakeGamesPNG.png" id="2_xlicr"]
+[ext_resource type="Texture2D" uid="uid://1dqh46fit2v7" path="res://assets/tilesets/TangerineTavernPNG_PetricakeGames.png" id="3_3bpqe"]
+[ext_resource type="Texture2D" uid="uid://cjbjqp5cmrd01" path="res://assets/tilesets/MysticChroma_PetricakeGames.png" id="4_clnl3"]
+[ext_resource type="Texture2D" uid="uid://dtflgd413rdsd" path="res://assets/tilesets/LollipopLabyrinth_FullPNG_PetricakeGames.png" id="5_tfg04"]
+[ext_resource type="PackedScene" uid="uid://bpya20i2xwtca" path="res://scenes/player.tscn" id="6_iqv4p"]
+[ext_resource type="PackedScene" uid="uid://bmqnakfiotdqf" path="res://scenes/npc.tscn" id="7_l0mqv"]
+[ext_resource type="PackedScene" uid="uid://j3oks2xgkf20" path="res://scenes/job_stand.tscn" id="8_uylbg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y5a3b"]
-texture = ExtResource("1_nap0q")
+texture = ExtResource("1_3due4")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -121,7 +121,7 @@ physics_layer_0/collision_layer = 2
 sources/0 = SubResource("TileSetAtlasSource_y5a3b")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oj0un"]
-texture = ExtResource("1_nap0q")
+texture = ExtResource("1_3due4")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -255,7 +255,7 @@ texture = ExtResource("1_nap0q")
 12:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f8qn7"]
-texture = ExtResource("3_hrat3")
+texture = ExtResource("2_xlicr")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -399,7 +399,7 @@ sources/0 = SubResource("TileSetAtlasSource_oj0un")
 sources/2 = SubResource("TileSetAtlasSource_f8qn7")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2bhl4"]
-texture = ExtResource("3_hrat3")
+texture = ExtResource("2_xlicr")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -538,7 +538,7 @@ texture = ExtResource("3_hrat3")
 16:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_byqvh"]
-texture = ExtResource("1_nap0q")
+texture = ExtResource("1_3due4")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -645,7 +645,7 @@ texture = ExtResource("1_nap0q")
 12:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cobi7"]
-texture = ExtResource("5_c8rdw")
+texture = ExtResource("3_3bpqe")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -774,7 +774,7 @@ texture = ExtResource("5_c8rdw")
 17:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v30h7"]
-texture = ExtResource("4_5g1r2")
+texture = ExtResource("4_clnl3")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -875,7 +875,7 @@ texture = ExtResource("4_5g1r2")
 13:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4yeqd"]
-texture = ExtResource("5_his02")
+texture = ExtResource("5_tfg04")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1021,7 +1021,7 @@ sources/4 = SubResource("TileSetAtlasSource_v30h7")
 sources/5 = SubResource("TileSetAtlasSource_4yeqd")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jfx2w"]
-texture = ExtResource("1_nap0q")
+texture = ExtResource("1_3due4")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -1157,7 +1157,7 @@ texture = ExtResource("1_nap0q")
 12:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_efaop"]
-texture = ExtResource("4_5g1r2")
+texture = ExtResource("4_clnl3")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1264,7 +1264,7 @@ texture = ExtResource("4_5g1r2")
 13:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1qx7v"]
-texture = ExtResource("3_hrat3")
+texture = ExtResource("2_xlicr")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1440,7 +1440,7 @@ texture = ExtResource("3_hrat3")
 16:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i33hw"]
-texture = ExtResource("5_c8rdw")
+texture = ExtResource("3_3bpqe")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1592,7 +1592,7 @@ texture = ExtResource("5_c8rdw")
 17:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_muwtl"]
-texture = ExtResource("5_his02")
+texture = ExtResource("5_tfg04")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1745,7 +1745,7 @@ sources/4 = SubResource("TileSetAtlasSource_i33hw")
 sources/5 = SubResource("TileSetAtlasSource_muwtl")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c61ry"]
-texture = ExtResource("3_hrat3")
+texture = ExtResource("2_xlicr")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1884,7 +1884,7 @@ texture = ExtResource("3_hrat3")
 16:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0hjtt"]
-texture = ExtResource("1_nap0q")
+texture = ExtResource("1_3due4")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -1991,7 +1991,7 @@ texture = ExtResource("1_nap0q")
 12:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_krh0l"]
-texture = ExtResource("4_5g1r2")
+texture = ExtResource("4_clnl3")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -2092,7 +2092,7 @@ texture = ExtResource("4_5g1r2")
 13:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iw50q"]
-texture = ExtResource("5_c8rdw")
+texture = ExtResource("3_3bpqe")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -2222,7 +2222,7 @@ texture = ExtResource("5_c8rdw")
 17:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7124k"]
-texture = ExtResource("5_his02")
+texture = ExtResource("5_tfg04")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -2396,15 +2396,15 @@ y_sort_enabled = true
 tile_map_data = PackedByteArray("AAAuACMABAALAAIAAAAtACMAAwAMAAIAAAAqACMABQAMAAYAAAAWAAcABQAJAAYAAAA=")
 tile_set = SubResource("TileSet_gt31d")
 
-[node name="Player" parent="." instance=ExtResource("2_5avh1")]
+[node name="Player" parent="." instance=ExtResource("6_iqv4p")]
 y_sort_enabled = true
 position = Vector2(34, 154)
 collision_mask = 7
 
-[node name="NPC" parent="." instance=ExtResource("7_tmyck")]
+[node name="NPC" parent="." instance=ExtResource("7_l0mqv")]
 y_sort_enabled = true
 position = Vector2(202, 125)
 
-[node name="JobStand" parent="." instance=ExtResource("8_7kl26")]
+[node name="JobStand" parent="." instance=ExtResource("8_uylbg")]
 y_sort_enabled = true
 position = Vector2(102, 166)

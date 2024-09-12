@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1dqh46fit2v7"
-path="res://.godot/imported/TangerineTavernPNG_PetricakeGames.png-1ab4c6d3cfd6b5011fc15d61f80f073f.ctex"
+uid="uid://bxik8ash3ikce"
+path="res://.godot/imported/3.png-54c08ecc1c8eec58885de4d3b994aafb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/TangerineTavernPNG_PetricakeGames.png"
-dest_files=["res://.godot/imported/TangerineTavernPNG_PetricakeGames.png-1ab4c6d3cfd6b5011fc15d61f80f073f.ctex"]
+source_file="res://assets/ui elements/3.png"
+dest_files=["res://.godot/imported/3.png-54c08ecc1c8eec58885de4d3b994aafb.ctex"]
 
 [params]
 

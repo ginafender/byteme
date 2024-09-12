@@ -40,13 +40,13 @@ func animations():
 	if velocity.length() == 0:
 		sprite.play("idle")
 	else:
-		if Input.is_action_just_pressed("move_down"):
+		if Input.is_action_pressed("move_down"):
 			sprite.play("run")
-		elif Input.is_action_just_pressed("move_left"):
+		elif Input.is_action_pressed("move_left"):
 			sprite.flip_h = true
 			sprite.play("side_run")
-		elif Input.is_action_just_pressed("move_right"):
+		elif Input.is_action_pressed("move_right"):
 			sprite.play("side_run")
 			sprite.flip_h = false
-		elif Input.is_action_just_pressed("move_up"):
+		elif Input.is_action_pressed("move_up"):
 			sprite.play("back_run")

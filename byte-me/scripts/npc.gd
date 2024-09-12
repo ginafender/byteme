@@ -12,5 +12,3 @@ func _ready():
 	interaction_area.interact = Callable(self, "_on_interact")
 	sprite.play("idle")
 	
-#func _on_interact():
-	#Dial
