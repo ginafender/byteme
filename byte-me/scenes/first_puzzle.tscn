@@ -1,6 +1,7 @@
-[gd_scene load_steps=16 format=4 uid="uid://bkogxjpgfsomn"]
+[gd_scene load_steps=17 format=4 uid="uid://bkogxjpgfsomn"]
 
 [ext_resource type="Texture2D" uid="uid://bxik8ash3ikce" path="res://assets/ui elements/3.png" id="1_dfs0a"]
+[ext_resource type="Script" path="res://scripts/first_puzzle.gd" id="1_yxnuy"]
 [ext_resource type="Texture2D" uid="uid://dbupnbrxsckkw" path="res://assets/ui elements/5.png" id="2_571lt"]
 [ext_resource type="Texture2D" uid="uid://d0h6vyj2x81yb" path="res://assets/ui elements/0.png" id="4_pmj16"]
 [ext_resource type="Script" path="res://scripts/camera_2d.gd" id="4_puytg"]
@@ -13303,6 +13304,7 @@ sources/1 = SubResource("TileSetAtlasSource_j5ctr")
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kadi6"]
 
 [node name="FirstPuzzle" type="Node2D"]
+script = ExtResource("1_yxnuy")
 
 [node name="Node2D" type="Node2D" parent="."]
 
@@ -13426,3 +13428,12 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("5_rb6jr")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_kadi6")
 script = ExtResource("7_60xu8")
+
+[node name="help buttton" type="Button" parent="."]
+offset_left = 1762.0
+offset_top = 39.0
+offset_right = 1875.0
+offset_bottom = 64.0
+text = "help"
+
+[connection signal="pressed" from="help buttton" to="." method="_on_help_buttton_pressed"]
