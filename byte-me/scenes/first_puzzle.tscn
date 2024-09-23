@@ -13436,4 +13436,12 @@ offset_right = 1875.0
 offset_bottom = 64.0
 text = "help"
 
+[node name="leave button" type="Button" parent="."]
+offset_left = 1763.0
+offset_top = 90.0
+offset_right = 1874.0
+offset_bottom = 120.0
+text = "leave job"
+
 [connection signal="pressed" from="help buttton" to="." method="_on_help_buttton_pressed"]
+[connection signal="pressed" from="leave button" to="." method="_on_leave_button_pressed"]

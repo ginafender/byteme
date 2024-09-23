@@ -13,3 +13,7 @@ func _process(delta: float) -> void:
 
 func _on_help_buttton_pressed() -> void:
 	pass # Replace with function body.
+
+
+func _on_leave_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/pinkroom.tscn")
